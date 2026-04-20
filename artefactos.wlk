@@ -28,7 +28,7 @@ object espadaDelDestino{
 tiene un poder base mayor a 6, le suma también un punto 
 por cada batalla en la que se haya usado el collar.*/
 object collarDivino{
-|   var cantidadBatallasCollar=0
+   var cantidadBatallasCollar=0
     const poder= 0 
     method usar(personaje){
         if (personaje.valorBasePelea()<=6){

@@ -57,11 +57,8 @@ method puedeLevantar(){
 
   method batalla (personaje, artefacto){
     usarArtefacto.apply(personaje, artefacto)
-    poderPelea= valorBasePelea+
+    poderPelea= valorBasePelea
 }
-
-
-
 
 
 }
